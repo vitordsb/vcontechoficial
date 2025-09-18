@@ -57,7 +57,7 @@ const Home = () => {
                 Está no lugar certo! Somos especialistas em consultoria e implementação
                 de software para todas as plataformas: Web, Mobile e Desktop.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4">
+              <div className="grid grid-cols-2 sm:flex-row gap-4">
                 <Button size="lg" asChild>
                   <Link to="/servicos">
                     Nossos Serviços
@@ -65,8 +65,14 @@ const Home = () => {
                   </Link>
                 </Button>
                 <Button variant="outline" size="lg" asChild>
-                  <a target="_blank" href="https://wa.me/+5511939572806">
+                  <a target="_blank" href="https://wa.me/+5511939572807">
                     Fale Conosco
+                    <ArrowRight className="ml-2 h-5 w-5" />
+                  </a>
+                </Button>
+                <Button variant="outline" size="lg" asChild>
+                  <a target="_blank" href="https://vschool-five.vercel.app">
+                    Experimente a VconStudy
                   </a>
                 </Button>
               </div>
