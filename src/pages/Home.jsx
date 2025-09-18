@@ -54,7 +54,7 @@ const Home = () => {
                 <span className="text-primary">totalmente personalizado?</span>
               </h1>
               <p className="text-xl text-gray-600 mb-8">
-                Está no lugar certo! Somos especialistas em consultoria e implementação 
+                Está no lugar certo! Somos especialistas em consultoria e implementação
                 de software para todas as plataformas: Web, Mobile e Desktop.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -65,16 +65,16 @@ const Home = () => {
                   </Link>
                 </Button>
                 <Button variant="outline" size="lg" asChild>
-                  <a href="tel:+5511939572807">
+                  <a target="_blank" href="https://wa.me/+5511939572806">
                     Fale Conosco
                   </a>
                 </Button>
               </div>
             </div>
             <div className="flex justify-center">
-              <img 
-                src={logoImage} 
-                alt="VConTech Logo" 
+              <img
+                src={logoImage}
+                alt="VConTech Logo"
                 className="max-w-md w-full h-auto"
               />
             </div>
@@ -90,8 +90,8 @@ const Home = () => {
               Sua marca online? Hoje é tendência!
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Não é de hoje que a presença online é a porta de entrada para todas as empresas, 
-              seja ela de qualquer seguimento. É o portal para apresentação, dúvidas, contato, 
+              Não é de hoje que a presença online é a porta de entrada para todas as empresas,
+              seja ela de qualquer seguimento. É o portal para apresentação, dúvidas, contato,
               prospecção e até mesmo pós venda.
             </p>
           </div>
@@ -179,12 +179,12 @@ const Home = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" variant="secondary" asChild>
-              <a href="tel:+5511939572807">
+              <a target="_blank" href="https://wa.me/5511939572807">
                 (11) 93957-2807
               </a>
             </Button>
             <Button size="lg" variant="secondary" asChild>
-              <a href="mailto:vcontechdevoficial@gmail.com">
+              <a target="_blank" href="mailto:vcontechdevoficial@gmail.com">
                 Enviar E-mail
               </a>
             </Button>

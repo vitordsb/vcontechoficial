@@ -13,15 +13,15 @@ const Footer = () => {
           {/* Company Info */}
           <div className="col-span-1 lg:col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <img 
-                src={logoImage} 
-                alt="VConTech Logo" 
+              <img
+                src={logoImage}
+                alt="VConTech Logo"
                 className="h-12 w-auto"
               />
             </div>
             <p className="text-gray-300 mb-4 max-w-md">
-              A VConTech é uma empresa especializada em consultoria e implementação de software 
-              para todas as plataformas: Web, Mobile e Desktop. Entregamos soluções tecnológicas 
+              A VConTech é uma empresa especializada em consultoria e implementação de software
+              para todas as plataformas: Web, Mobile e Desktop. Entregamos soluções tecnológicas
               modernas e escaláveis.
             </p>
             <div className="space-y-2">
@@ -84,8 +84,8 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-2">
                 <Mail className="h-4 w-4 text-primary" />
-                <a 
-                  href="mailto:vcontechdevoficial@gmail.com" 
+                <a
+                  href="mailto:vcontechdevoficial@gmail.com"
                   className="text-gray-300 hover:text-white transition-colors"
                 >
                   vcontechdevoficial@gmail.com
@@ -102,9 +102,9 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-2">
                 <ExternalLink className="h-4 w-4 text-primary" />
-                <a 
-                  href="https://www.vcontechodevoficial.com.br" 
-                  target="_blank" 
+                <a
+                  href="https://vcontechoficial.vercel.app/"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-300 hover:text-white transition-colors"
                 >
